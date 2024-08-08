@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CleanOceanTech | Educação</title>
+    <link rel="shortcut icon" type="image/svg" href="./assets/svgs/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/education.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="index.html">CleanOceanTech</a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto ul-custom">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Início</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="solutions.html">Soluções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="connect.html">Conexões</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="education.html">Educação</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h2 class="title">Educação e Conscientização</h2>
+
+      <div class="horizontal-line"></div>
+
+      <section class="mb-5 mt-4 section-1">
+        <ul class="accordion">
+          <li>
+            <input type="radio" name="accordion" id="first" checked />
+            <label for="first" onclick="toggleRadio(event, 'first')"
+              >Redução do Uso de Plásticos Descartáveis</label
+            >
+            <div class="content-item">
+              <p>
+                Reduzir o uso de plásticos descartáveis é importante para
+                proteger a natureza. Plásticos descartáveis, como copos, canudos
+                e sacolas, são usados uma vez e depois jogados fora, poluindo o
+                meio ambiente. Podemos ajudar usando menos plástico. Por
+                exemplo, podemos usar copos e garrafas reutilizáveis, sacolas de
+                tecido e evitar canudos de plástico. Assim, produzimos menos
+                lixo e cuidamos melhor do nosso planeta. Juntos, pequenas
+                mudanças fazem uma grande diferença!
+              </p>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="accordion" id="second" />
+            <label for="second" onclick="toggleRadio(event, 'second')"
+              >Reciclagem Adequada</label
+            >
+            <div class="content-item">
+              <p>
+                Reciclar adequadamente é essencial para cuidar do nosso planeta.
+                Quando reciclamos, transformamos materiais usados em novos
+                produtos, economizando recursos e reduzindo o lixo. Para
+                reciclar corretamente, devemos separar o lixo: papel, plástico,
+                vidro e metal em diferentes lixeiras. Cada material vai para um
+                lugar especial onde é reciclado. Por exemplo, garrafas plásticas
+                se transformam em novas garrafas ou em outros objetos. Aprender
+                a reciclar ajuda a proteger a natureza e manter o mundo limpo e
+                saudável para todos. Juntos, podemos fazer a diferença!
+              </p>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="accordion" id="third" />
+            <label for="third" onclick="toggleRadio(event, 'third')"
+              >Participação em Iniciativas de Limpeza</label
+            >
+            <div class="content-item">
+              <p>
+                Participar em iniciativas de limpeza é uma ótima maneira de
+                cuidar do nosso planeta. Nessas ações, pessoas se reúnem para
+                limpar parques, praias e outros lugares, recolhendo o lixo que
+                encontra. Quando participamos dessas iniciativas, ajudamos a
+                natureza e aprendemos a importância de manter os lugares limpos.
+                Além disso, podemos fazer novos amigos e nos divertir enquanto
+                cuidamos do meio ambiente. Juntos, podemos manter nosso mundo
+                mais bonito e saudável!
+              </p>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="accordion" id="fourth" />
+            <label for="fourth" onclick="toggleRadio(event, 'fourth')"
+              >Educação e Conscientização</label
+            >
+            <div class="content-item">
+              <p>
+                Educação e conscientização são importantes para cuidar do nosso
+                planeta. Quando aprendemos sobre problemas ambientais e como
+                solucioná-los, podemos fazer escolhas melhores. Na escola, em
+                casa ou em eventos, podemos aprender sobre reciclagem, economia
+                de água e energia, e como reduzir o lixo. Ao compartilhar esse
+                conhecimento com amigos e família, ajudamos mais pessoas a
+                cuidar da natureza. Quanto mais soubermos, melhor podemos
+                proteger o meio ambiente e garantir um futuro saudável para
+                todos!
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3 class="title">Vídeos Educativos</h3>
+
+        <div class="horizontal-line"></div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="video-container">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/mM0n8A-FVWs"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <div class="video-container">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/qw-3s_hYUQs"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <div class="video-container">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/EWqnWXnXURw"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <!-- Repita este bloco para adicionar mais vídeos -->
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; 2024 CleanOceanTech</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/education.js"></script>
+    <script src="./scripts/mobileMenu.js"></script>
+  </body>
+</html>

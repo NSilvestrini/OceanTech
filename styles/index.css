@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #00ddfa, #003ffa, #008cf9, #1100fa);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* header */
+
+header .navbar-brand {
+  color: #e6e6e6;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+header {
+  color: #e6e6e6;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  color: #e6e6e6;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #45a8f8;
+}
+
+.navbar-nav .nav-link.active {
+  transform: scale(1);
+  border-bottom: 2px solid #45a8f8;
+}
+
+.ul-custom {
+  gap: 15px;
+}
+
+.bg-custom-lightblue {
+  background-color: #53b2fa;
+}
+
+.btn-custom-green {
+  background-color: #00ddfa;
+  border: none;
+  color: black;
+}
+
+.member-info {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.member-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-details p {
+  margin: 0;
+}
+
+.card-text {
+  color: #000;
+}
+
+.card-title {
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Mapa interativo */
+
+#map {
+  height: 500px;
+  border: 2px solid #003ffa;
+  border-radius: 10px;
+}

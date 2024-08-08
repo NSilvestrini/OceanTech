@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+  color: #333333;
+  font-family: "Roboto" Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header .navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+header {
+  color: white;
+  padding: 10px 0;
+  background-color: #2fe0ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  opacity: 0.7;
+}
+
+.navbar-nav .nav-link.active {
+  transform: scale(1);
+  opacity: 1;
+  border-bottom: 2px solid #45a8f8;
+}
+
+.ul-custom {
+  gap: 15px;
+}
+
+.main-solutions {
+  margin-top: 56px;
+  width: 98vw;
+  padding: 20px 50px;
+}
+
+.container-solution {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container-solution h2 {
+  color: #009efa;
+  font-size: 38px;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 2px; /* altura da linha */
+  background-color: #009efa; /* cor da linha */
+
+  margin-top: 10px;
+  border-radius: 10px;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.container-solution nav ul {
+  margin: 20px 0 20px 0;
+}
+
+.container-solution a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.container-solution a:hover {
+  color: #008cf9;
+}
+
+.problem {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.244);
+  margin-top: 16px;
+}
+
+.problem-text {
+  background-color: #cccccc53;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.accordion-button {
+  color: #0020b6;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.accordion-button:hover {
+  color: #008cf9;
+}
+
+.problem-text h4 {
+  font-size: 16px;
+  color: #999;
+}
+
+.problem-text ul li {
+  color: #888;
+}
+
+footer {
+  color: #333; /* Texto mais escuro */
+  text-align: center;
+  padding: 10px 0;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  margin-top: 32px;
+}
